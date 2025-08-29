@@ -1,0 +1,280 @@
+[
+  {
+    "title": "Speedtest",
+    "url": "https://www.speedtest.net",
+    "description": "Check internet speed. Good first step for network complaints.",
+    "category": "Networking",
+    "tags": [
+      "latency",
+      "bandwidth",
+      "packet loss"
+    ]
+  },
+  {
+    "title": "Fast.com",
+    "url": "https://fast.com",
+    "description": "One-click quick speed test by Netflix.",
+    "category": "Networking",
+    "tags": [
+      "simple",
+      "speed"
+    ]
+  },
+  {
+    "title": "DownDetector",
+    "url": "https://downdetector.com/",
+    "description": "Verify if a site/service is globally down.",
+    "category": "Networking",
+    "tags": [
+      "outage",
+      "status"
+    ]
+  },
+  {
+    "title": "WhatIsMyIP",
+    "url": "https://whatismyipaddress.com",
+    "description": "See public IP, ISP, and geolocation.",
+    "category": "Networking",
+    "tags": [
+      "ip",
+      "diagnostics"
+    ]
+  },
+  {
+    "title": "1.1.1.1 DNS",
+    "url": "https://1.1.1.1",
+    "description": "Cloudflare DNS setup and privacy resolver.",
+    "category": "Networking",
+    "tags": [
+      "dns",
+      "resolver"
+    ]
+  },
+  {
+    "title": "Ninite",
+    "url": "https://ninite.com",
+    "description": "Safely install/upgrade common Windows apps in one go.",
+    "category": "Windows",
+    "tags": [
+      "apps",
+      "installer"
+    ]
+  },
+  {
+    "title": "Microsoft PC Health Check",
+    "url": "https://aka.ms/GetPCHealthCheckApp",
+    "description": "Check Windows 11 compatibility and basic health.",
+    "category": "Windows",
+    "tags": [
+      "windows",
+      "health"
+    ]
+  },
+  {
+    "title": "Windows Update Catalog",
+    "url": "https://www.catalog.update.microsoft.com/",
+    "description": "Direct downloads for specific drivers/updates.",
+    "category": "Windows",
+    "tags": [
+      "drivers",
+      "updates"
+    ]
+  },
+  {
+    "title": "Device Manager (Run)",
+    "url": "about:blank",
+    "description": "Open Device Manager quickly (copy command).",
+    "category": "Windows",
+    "tags": [
+      "drivers",
+      "device manager"
+    ],
+    "snippet": "devmgmt.msc"
+  },
+  {
+    "title": "Event Viewer (Run)",
+    "url": "about:blank",
+    "description": "Open Windows Event Viewer.",
+    "category": "Windows",
+    "tags": [
+      "logs",
+      "diagnostics"
+    ],
+    "snippet": "eventvwr.msc"
+  },
+  {
+    "title": "System Information (Run)",
+    "url": "about:blank",
+    "description": "MSINFO32 system details.",
+    "category": "Windows",
+    "tags": [
+      "system",
+      "inventory"
+    ],
+    "snippet": "msinfo32"
+  },
+  {
+    "title": "Flush DNS (CMD)",
+    "url": "about:blank",
+    "description": "Clear DNS cache (copy and run in Command Prompt as admin).",
+    "category": "Networking",
+    "tags": [
+      "dns",
+      "cache"
+    ],
+    "snippet": "ipconfig /flushdns"
+  },
+  {
+    "title": "Reset Network Stack (CMD)",
+    "url": "about:blank",
+    "description": "Winsock + TCP/IP reset (reboot after).",
+    "category": "Networking",
+    "tags": [
+      "winsock",
+      "reset",
+      "fix"
+    ],
+    "snippet": "netsh winsock reset\nnetsh int ip reset\nipconfig /release\nipconfig /renew\nipconfig /flushdns"
+  },
+  {
+    "title": "Malwarebytes",
+    "url": "https://www.malwarebytes.com/",
+    "description": "Trusted malware/adware scan for Windows.",
+    "category": "Security",
+    "tags": [
+      "malware",
+      "scan"
+    ]
+  },
+  {
+    "title": "F-Secure Online Scanner",
+    "url": "https://www.f-secure.com/en/home/free-tools/online-scanner",
+    "description": "Run-once malware scanner, no install.",
+    "category": "Security",
+    "tags": [
+      "scan",
+      "portable"
+    ]
+  },
+  {
+    "title": "Virustotal",
+    "url": "https://www.virustotal.com/",
+    "description": "Scan suspicious files/URLs with multiple engines.",
+    "category": "Security",
+    "tags": [
+      "malware",
+      "url",
+      "hash"
+    ]
+  },
+  {
+    "title": "Google DNS (8.8.8.8) Guide",
+    "url": "https://developers.google.com/speed/public-dns",
+    "description": "Change DNS to improve reliability in some networks.",
+    "category": "Networking",
+    "tags": [
+      "dns",
+      "how-to"
+    ]
+  },
+  {
+    "title": "Edge Reset Settings",
+    "url": "edge://settings/reset",
+    "description": "Reset Microsoft Edge settings (open in Edge).",
+    "category": "Browsers",
+    "tags": [
+      "edge",
+      "reset"
+    ]
+  },
+  {
+    "title": "Chrome Cleanup (Reset)",
+    "url": "chrome://settings/reset",
+    "description": "Reset Chrome settings (open in Chrome).",
+    "category": "Browsers",
+    "tags": [
+      "chrome",
+      "reset"
+    ]
+  },
+  {
+    "title": "UBlock Origin",
+    "url": "https://ublockorigin.com/",
+    "description": "Lightweight ad/tracker blocker \u2014 helps with shady popups.",
+    "category": "Browsers",
+    "tags": [
+      "privacy",
+      "extensions"
+    ]
+  },
+  {
+    "title": "HWInfo",
+    "url": "https://www.hwinfo.com/",
+    "description": "Deep hardware sensors and inventory (Windows).",
+    "category": "System",
+    "tags": [
+      "sensors",
+      "temp"
+    ]
+  },
+  {
+    "title": "CrystalDiskInfo",
+    "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+    "description": "Check HDD/SSD health via SMART.",
+    "category": "System",
+    "tags": [
+      "storage",
+      "health"
+    ]
+  },
+  {
+    "title": "MemTest86",
+    "url": "https://www.memtest86.com/",
+    "description": "Bootable RAM test for suspect memory.",
+    "category": "System",
+    "tags": [
+      "memory",
+      "diagnostics"
+    ]
+  },
+  {
+    "title": "AnyDesk",
+    "url": "https://anydesk.com/",
+    "description": "Fast remote support tool.",
+    "category": "Remote",
+    "tags": [
+      "remote",
+      "help"
+    ]
+  },
+  {
+    "title": "RustDesk (Open Source Remote)",
+    "url": "https://rustdesk.com/",
+    "description": "Open-source self-hostable remote desktop.",
+    "category": "Remote",
+    "tags": [
+      "open-source",
+      "remote"
+    ]
+  },
+  {
+    "title": "DriverStore Explorer (PnPUtil GUI)",
+    "url": "https://github.com/lostindark/DriverStoreExplorer",
+    "description": "Inspect/remove old drivers safely.",
+    "category": "Windows",
+    "tags": [
+      "drivers",
+      "cleanup"
+    ]
+  },
+  {
+    "title": "WinGet (Windows Package Manager)",
+    "url": "https://learn.microsoft.com/windows/package-manager/winget/",
+    "description": "Automate app installs/updates via command line.",
+    "category": "Windows",
+    "tags": [
+      "automation",
+      "apps"
+    ]
+  }
+]

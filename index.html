@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Personal Tech Support</title>
+    <meta name="description" content="Open-source quick fixes and go-to tools for tech support." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script defer src="https://unpkg.com/feather-icons"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <span class="logo">🛠️</span>
+        <h1>Your Personal Tech Support</h1>
+      </div>
+      <nav class="top-actions">
+        <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">Star on GitHub</a>
+      </nav>
+    </header>
+
+    <section class="controls">
+      <input id="search" class="search" type="search" placeholder="Search tools, fixes, tags…" aria-label="Search" />
+      <div id="filters" class="filters" role="tablist" aria-label="Category filters"></div>
+    </section>
+
+    <main>
+      <div id="cards" class="grid" aria-live="polite"></div>
+      <template id="card-template">
+        <article class="card">
+          <div class="card-head">
+            <h3 class="title"></h3>
+            <span class="badge"></span>
+          </div>
+          <p class="desc"></p>
+          <div class="tags"></div>
+          <div class="actions">
+            <a class="btn primary open" href="#" target="_blank" rel="noopener">
+              <i data-feather="external-link"></i><span>Open</span>
+            </a>
+            <button class="btn copy hidden">
+              <i data-feather="copy"></i><span>Copy</span>
+            </button>
+          </div>
+        </article>
+      </template>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built with ♥ for quick, reliable support. Contribute on GitHub.</p>
+    </footer>
+  </body>
+</html>
